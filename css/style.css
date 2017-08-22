@@ -1,7 +1,109 @@
-body, html {
-	margin:0;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
 	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-h1 {
-  color: #ff0000;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* custom css */
+ /** {
+ 	background-color: pink;
+ }
+ 
+#wrap {
+	background-color: #c5d1e5;
+	height: 100px;s
+	text-align: center;
+	margin-top: 20px;
+}  */
+
+.header {
+	background-color: #313747;
+	height: 50px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	text-shadow: 5px 5px 5px #d64fa4;
+	font-size: 24px;
+	font-weight: bold;
+}
+.header a {
+	color: white;
+	text-decoration: none;
+}
+.menu {
+	background-color: #f9c5e6;
+}
+.menu ul li {
+	 display: inline-block;
+	 width: 24%;
+	 text-align: center;
+}
+.menu ul li a {
+	display: block;
+	padding: 10px 0px;
+	text-decoration: none;
+	color: #313747;
+	border-top: 2px solid #313747;
+	border-bottom: 2px solid #313747;
+}
+.menu ul li a:hover {
+	color: white;
+	background-color: #313747;
+	border-top: 2px solid #f9c5e6;
+	border-bottom: 2px solid #f9c5e6;
+}
+
+.banner {
+	height: 500px;
+	overflow: hidden;
+
+
+}
+.banner img {
+	width: 100%;
+
 }
